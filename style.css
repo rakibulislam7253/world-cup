@@ -1,0 +1,121 @@
+body {
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.player-bord {
+    display: flex;
+    width: 86%;
+    height: 560px;
+    left: 140px;
+    top: 50px;
+    background: #161616;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.player-image img {
+    width: 533px;
+    height: 580px;
+   
+    
+}
+.player-image
+{
+    margin-right: 80px;
+}
+
+.details h1 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 65px;
+}
+.details
+{
+    margin-left: 100px;
+   padding-bottom: 20px;
+
+}
+
+.details-pare {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btn {
+    width: 185px;
+    height: 55px;
+    padding: 16px 25px;
+    background: #DD0000;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+
+.but3 button
+{
+    width: 220px;
+    height: 62px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+    
+   
+}
+.three-btn
+{
+    background-color: #161616;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+ 
+}
+.blog-btn
+{
+    background-color: #DD0000;
+    color: white;
+}
+.blog
+{
+    width: 312px;
+    height: 300px;
+    background-color: #fff6f6;
+    border-radius: 10px;
+    
+}
+.blog-low button 
+{
+   margin-left: 15px;
+}
+h5
+{
+    margin-left: 15px; 
+}
+.blog1
+{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 20px;
+}
+.two
+{
+    display: flex;
+
+}
+
+
