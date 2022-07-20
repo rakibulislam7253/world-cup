@@ -94,28 +94,47 @@ main {
     background-color: #DD0000;
     color: white;
 }
-.blog
+.blog 
 {
+
     width: 271px;
-    height: 330px;
-    background-color: #fff7f7;
-    border-radius: 10px;
+ 
+}
+.border
+
+{
+    border: 1px solid lightgray;
+    border-radius: 10px; 
+    margin-bottom: 5px;
+}
+.flag1
+{
+    display: flex;
     
 }
-.trans
+.flag11
 {
-    font-size: 14px;
+    margin-right: 15px;
 }
-.blog-low button 
+.flag22
 {
-   margin-left: 15px;
-   padding: 2px 8px;
-   border: 1px solid black;
-   border-radius: 3px;
+    margin-left: 15px;
 }
-h5
+
+.elements
 {
-    margin-left: 15px; 
+    display: grid;
+    justify-content: center;
+    padding-top: 20px;
+}
+.Germany
+{
+    margin-left: 25px;
+}
+.april
+{
+    margin-bottom: 30px;
+    padding-bottom: 10px;
     font-size: 16px;
 }
 .blog1
@@ -131,11 +150,7 @@ h5
    justify-content: space-between;
     
 }
-.blof-img
-{
-    width: 270px;
-    height: 160px;
-}
+
 
 .low 
 {
