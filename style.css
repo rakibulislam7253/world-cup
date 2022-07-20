@@ -79,9 +79,10 @@ main {
 .three-btn
 {
     background-color: #161616;
-    width: 300px;
+    width: 290px;
     height: 300px;
     border-radius: 10px;
+    margin-right: 20px;
  
 }
 .blog-btn
@@ -91,9 +92,9 @@ main {
 }
 .blog
 {
-    width: 312px;
+    width: 271px;
     height: 300px;
-    background-color: #fff6f6;
+    background-color: #fdf3f3;
     border-radius: 10px;
     
 }
@@ -109,13 +110,19 @@ h5
 {
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
-    grid-row-gap: 30px;
+    grid-row-gap: 20px;
     grid-column-gap: 20px;
 }
 .two
 {
-    display: flex;
-
+     display: flex; 
+   justify-content: space-between;
+    
+}
+.blof-img
+{
+    width: 270px;
+    height: 160px;
 }
 
 
