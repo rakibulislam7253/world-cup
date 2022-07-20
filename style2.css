@@ -196,20 +196,3 @@ hr
     
     margin-top: 50px;
 }
-
-.view
-{
-    margin-top: 30px;
-}
-
-.btn_view{
-    border: none;
-    width: 140px;
-    height: 45px;
-    visibility: hidden;
-    background: #DD0000;
-    border-radius: 5px;
-    font-weight: 400;
-    font-size: 18px;
-    color: white;
-}
