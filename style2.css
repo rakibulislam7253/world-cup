@@ -248,7 +248,8 @@ margin: 10px;
         height: 100%;
     }
     .two{
-       flex-direction: column; 
+       flex-direction: column;
+       justify-content: space-between; 
     }
     .two,.blog1{
         display: grid;
@@ -309,6 +310,7 @@ margin: 10px;
     }
     .two{
        flex-direction: row; 
+       justify-content: space-between;
     }
     .two,.blog1{
        display: grid;

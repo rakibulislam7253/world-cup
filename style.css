@@ -11,7 +11,7 @@ main {
     align-items: center;
 
 }
-
+/* top-part */
 .player-bord {
     display: flex;
     width: 86%;
@@ -66,7 +66,7 @@ main {
     font-size: 18px;
     color: white;
 }
-
+/* blog button */
 .but3 button
 {
     border: none;
@@ -95,6 +95,7 @@ main {
     background-color: #DD0000;
     color: white;
 }
+/* sizing blog(transfer) */
 .blog
 {
     width: 271px;
@@ -156,7 +157,7 @@ h5
   margin-top: -30px;
  font-size: 14px;
 }
-
+/* footer */
 .last-part
 {
     display: grid;
@@ -225,6 +226,7 @@ margin: 10px;
 {
     color: rgb(242, 71, 40);
 }
+/* socialicon part  */
 .icon
 {
     display: flex;
@@ -251,11 +253,13 @@ margin: 10px;
     }
     .two{
        flex-direction: column; 
+       justify-content: space-between;
     }
     .two,.blog1{
        display: grid;
        
          justify-content: center; 
+        
          margin-left: 20px;
         
     }
@@ -297,7 +301,7 @@ margin: 10px;
 }
 
 
-/* ..............nodeped........... */
+/* ..............Tablet........... */
 @media only screen and (min-width:680px) and (max-width:992px)
 {
     .container
@@ -307,6 +311,7 @@ margin: 10px;
     }
     .two{
        flex-direction: row; 
+       justify-content: space-between;
     }
     .two,.blog1{
        display: grid;
