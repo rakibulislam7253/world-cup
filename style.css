@@ -43,6 +43,7 @@ main {
 }
 .details
 {
+    display: flex;
     margin-left: 100px;
    padding-bottom: 20px;
 
@@ -213,4 +214,165 @@ hr
     font-weight: 400;
     font-size: 18px;
     color: white;
+}
+.fa-brands
+{
+color: rgb(34, 159, 232);
+font-size: 25px;
+margin: 10px;
+}
+.fa-youtube
+{
+    color: rgb(242, 71, 40);
+}
+.icon
+{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+     width: 500px;
+     margin-left: 100px;
+    margin-top: 50px;
+    visibility: hidden;
+  
+
+}
+
+
+/* ...........media queries......... */
+/* ...........mobile......... */
+
+@media only screen and (max-width:680px)
+{
+    .container
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .two{
+       flex-direction: column; 
+    }
+    .two,.blog1{
+       display: grid;
+       
+         justify-content: center; 
+         margin-left: 20px;
+        
+    }
+    
+
+    .three-btn
+    {
+        background-color: white;
+    grid-template-rows:repeat(3,1fr) ;
+
+    } 
+    .blog1
+    {
+        grid-template-columns: repeat(1 ,1fr);
+    }
+    .last-part
+    {
+        grid-template-columns: repeat(1 ,1fr);
+        justify-content: center;
+        margin: 0px;
+    }
+    .hr
+    {
+        margin-left:20px ;
+        margin-right:20px ;
+    }
+    
+
+    .player-bord  {
+        display: none;
+
+    }
+   .icon{
+    margin-left: 0px;
+    visibility: visible;
+   }
+  
+
+}
+
+
+/* ..............nodeped........... */
+@media only screen and (min-width:680px) and (max-width:992px)
+{
+    .container
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .two{
+       flex-direction: row; 
+    }
+    .two,.blog1{
+       display: grid;
+       
+         justify-content: flex-end; 
+         margin-right: 20px;
+        
+    }
+
+    .three-btn
+    {
+        background-color: white;
+        display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+
+    } 
+    .but3 button
+    {
+        border: none;
+        width: 150px;
+        height: 62px;
+        font-weight: 500;
+        font-size: 20px;
+        border-radius: 10px;
+        /* margin: 10px; */
+        margin-left: 20px;
+        margin-top: 120px;
+        padding: 10px;
+        
+    }
+    .blog1
+    {
+    
+        grid-template-columns: repeat(2 ,1fr);
+        margin-right: 100px;
+    }
+    .last-part
+    {
+        /* grid-template-columns: repeat(1 ,1fr); */
+        /* justify-content: center; */
+        /* margin-left: 0px;
+    margin-right: 0px; */
+    margin-right: 20px;
+    margin-left:20px;
+        height: 100px;
+        grid-template-columns: repeat(3 ,1fr); 
+        justify-content: center;
+    }
+    .hr
+    {
+        margin-left:20px ;
+        margin-right:20px ;
+    }
+    
+
+    .player-bord  {
+        display: none;
+
+    }
+    .btn_view
+    {
+        visibility: visible;
+       
+        margin-left: 350px;
+    }
+    .icon{
+       visibility: visible; 
+    }
 }
