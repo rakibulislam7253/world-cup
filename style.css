@@ -289,7 +289,7 @@ margin: 10px;
     
 
     .player-bord  {
-        display: none;
+        display: block;
 
     }
    .icon{
@@ -368,8 +368,20 @@ margin: 10px;
     
 
     .player-bord  {
-        display: none;
+        display: block;
+        width: 100%;
+        
 
+    }
+    .player-image img {
+        width: 400px;
+        height: 580px;
+       
+        
+    }
+    .player-image
+    {
+        margin-right: 50px;
     }
     .btn_view
     {
