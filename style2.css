@@ -367,8 +367,21 @@ margin: 10px;
     
 
     .player-bord  {
-        display: none;
+        display: block;
+        width: 85%;
+        /* justify-content: center; */
+        
 
+    }
+    .player-image img {
+        width: 300px;
+        height: 480px;
+       
+        
+    }
+    .player-image
+    {
+        margin-right: 50px;
     }
     .btn_view
     {
